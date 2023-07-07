@@ -1,0 +1,259 @@
+/*:root {
+    width: 970px;
+    margin: 10px;
+    margin-left: 140px;
+    background-color: #265175;
+    border: 1px solid black;
+}
+*/
+
+* {
+    margin: 0;
+}
+
+.content {
+    width: 970px;
+    background-color: #265175;
+}
+
+.header {
+    display: inline-block;
+}
+
+img {
+    width: 380px;
+    height: 100px;
+    display: inline-block;
+}
+
+.header>p {
+    text-align: right;
+    vertical-align: top;
+    margin: 0px 0px 0px 300px;
+    display: inline-block;
+    width: auto;
+    color: white;
+}
+
+.header>p>a {
+    color: #e9d120;
+}
+
+.border {
+    background-color: #444444;
+    width: 330px;
+    height: 65px;
+    margin: -80px 0px 0px 600px;
+    border-radius: 10px;
+}
+
+.search {
+    background-color: aliceblue;
+    width: 180px;
+    height: 35px;
+    display: inline-block;
+    margin: 10px 0px 0px 45px;
+    border: 3px solid gray;
+}
+
+.search>p {
+    width: 155px;
+    height: 5px;
+    text-align: center;
+    color: grey;
+    background-color: aliceblue;
+    border: solid white;
+    margin: 5px 0px -15px 10px;
+}
+
+.go {
+    background-color: #265175;
+    width: 40px;
+    height: 30px;
+    margin: 0px 0px 0px 195px;
+    display: inline-block;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin: 0px 0px 80px 195px;
+}
+
+.go>p {
+    width: auto;
+    margin: 5px 0px 0px 7px;
+    color: white;
+    border: solid #265175;
+}
+
+.nav {
+    background: linear-gradient(to top, #3977ab, #5384ac 50%, #548ab7 50%, #3977ab 85%);
+    width: 820px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 30px 0px 0px 70px;
+    padding-top: 10px;
+}
+
+.nav>div {
+    background-color: transparent;
+    display: inline;
+    font-size: 150%;
+    color: white;
+    margin: 0px 20px 0px 20px;
+}
+
+.panel {
+    width: 250px;
+    height: 50px;
+    margin: 40px 0px 0px 0px;
+    display: inline-block;
+}
+
+.panel>p {
+    width: auto;
+    color: #e9d120;
+    text-align: center;
+    margin-right: 0px;
+    line-height: 30px;
+    font-size: 110%;
+}
+
+.panel>p>a {
+    color: white;
+    font-family: Helvetica;
+}
+
+.text_upper {
+    width: 705px;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px -15px;
+    font-family: Helvetica;
+
+}
+
+.text_upper>p {
+    width: auto;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 100%;
+}
+
+.text_down {
+    width: 350px;
+    display: inline-block;
+    margin: -120px 0px 30px 420px;
+    line-height: 220%;
+    line-height: 3x3px;
+}
+
+.text_down>p {
+    width: auto;
+    color: #e9d120;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 130%;
+}
+
+.text_down>p>span {
+    color: white;
+}
+
+.section {
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.line1,
+.line2 {
+    width: 350px;
+    height: 5px;
+    background-color: #75a8d3;
+    display: inline-block;
+    margin: 0px -15px 0px 90px;
+}
+
+.text_left,
+.text_right {
+    width: 350px;
+    margin: 5px 0px 0px 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text_left>p {
+    width: auto;
+    text-align: center;
+    margin: 5px 0px 0px 10px;
+    font-family: Helvetica;
+    font-size: 90%;
+}
+
+.text_right>p {
+    width: auto;
+    text-align: center;
+    margin: 5px 0px 0px 10px;
+    font-family: Helvetica;
+    font-size: 90%;
+}
+
+h5 {
+    text-align: center;
+    font-family: Helvetica;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+
+ul>li {
+    padding-top: 5px;
+    margin: 10px;
+    text-align: center;
+    color: #559fdc;
+    font-family: Helvetica;
+    margin-bottom: 10px;
+}
+
+.lis_left,
+.lis_right>li {
+    line-height: 5px;
+}
+
+li>p {
+    margin-top: 12px;
+}
+
+.sub_text {
+    color: #559fdc;
+    font-size: 90%;
+}
+
+.footer {
+    width: auto;
+    height: 100px;
+    background: linear-gradient(#265175, #3572a5);
+}
+
+.footer>div>p {
+    color: #89bae3;
+    font-size: 130%;
+}
+
+.t1,
+.t2,
+.t3 {
+    width: 250px;
+    display: inline-block;
+    margin: 30px -130px 0px 130px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+
+.t4 {
+    width: 240px;
+    margin: 15px 0px 0px 400px;
+    display: inline-block;
+    color: #89bae3;
+}
